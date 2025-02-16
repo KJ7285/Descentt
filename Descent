@@ -1,0 +1,27 @@
+getgenv().Descent = {
+    Config = {
+        SilentAim = {
+            Enabled = true,
+            Prediction = 0.145,
+            AimPart = "HumanoidRootPart",
+            AirPart = "UpperTorso",
+            Offset = Vector3.new(0, 0.27, 0)
+        },
+        FOV = {
+            Enabled = true,
+            Radius = 120
+        },
+        AutoAir = true,
+        AutoBuyAfterDeath = true,
+        WallCheck = true,
+        Method = "Namecall"
+    },
+    Metadata = {},
+    Items = {
+        Weapons = {"[Tactical Shotgun]", "[Shotgun]", "[USP]", "[Silencer]"},
+        Armor = "[High-Medium Armor]",
+        Food = "[Chicken]"
+    }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KJ7285/Fixed-descent/refs/heads/main/source%20.txt"))()
