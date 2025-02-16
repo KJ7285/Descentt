@@ -24,4 +24,4 @@ getgenv().Descent = {
     }
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KJ7285/Fixed-descent/refs/heads/main/source%20.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KJ7285/Descent-fixed/refs/heads/main/descent.txt"))()
